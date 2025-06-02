@@ -26,7 +26,7 @@ export default async function Home() {
   return (
     <div className="app grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <main>
-        <h1>This is rendered as part of an RSC</h1>
+        <h1>This is an example. Pokemon Names</h1>
         <ul>
           {result.data?.pokemons?.map((x: any) => (
             <li key={x.id}>{x.name}</li>
